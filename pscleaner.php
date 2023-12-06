@@ -631,7 +631,7 @@ class PSCleaner extends Module
             array('stock', 'id_warehouse', 'warehouse', 'id_warehouse'),
             array('stock', 'id_product', 'product', 'id_product'),
             array('stock_available', 'id_product', 'product', 'id_product'),
-            array('stock_mvt', 'id_stock', 'stock', 'id_stock'),
+            array('stock_mvt', 'id_stock', 'stock_available', 'id_stock_available'),
             array('tab_module_preference', 'id_employee', 'employee', 'id_employee'),
             array('tab_module_preference', 'id_tab', 'tab', 'id_tab'),
             array('tax_rule', 'id_country', 'country', 'id_country'),
